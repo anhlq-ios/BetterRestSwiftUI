@@ -11,6 +11,7 @@
 		78A9AE8827CD06B100EB70C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A9AE8727CD06B100EB70C3 /* ContentView.swift */; };
 		78A9AE8A27CD06B200EB70C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A9AE8927CD06B200EB70C3 /* Assets.xcassets */; };
 		78A9AE8D27CD06B200EB70C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A9AE8C27CD06B200EB70C3 /* Preview Assets.xcassets */; };
+		78A9AEA227D3579900EB70C3 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 78A9AEA127D3579900EB70C3 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		78A9AE8727CD06B100EB70C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		78A9AE8927CD06B200EB70C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78A9AE8C27CD06B200EB70C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		78A9AEA127D3579900EB70C3 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		78A9AE8427CD06B100EB70C3 /* BetterRest */ = {
 			isa = PBXGroup;
 			children = (
+				78A9AEA127D3579900EB70C3 /* SleepCalculator.mlmodel */,
 				78A9AE8527CD06B100EB70C3 /* BetterRestApp.swift */,
 				78A9AE8727CD06B100EB70C3 /* ContentView.swift */,
 				78A9AE8927CD06B200EB70C3 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78A9AEA227D3579900EB70C3 /* SleepCalculator.mlmodel in Sources */,
 				78A9AE8827CD06B100EB70C3 /* ContentView.swift in Sources */,
 				78A9AE8627CD06B100EB70C3 /* BetterRestApp.swift in Sources */,
 			);
